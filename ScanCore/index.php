@@ -19,6 +19,5 @@ require "core/Plugin.php";
 $qascanner = new QAScanner();
 $qascanner->addPlugin('EmptyA');
 $qascanner->addPlugin('ScriptTags');
-//$qascanner->addURL('http://www.mea.klyp.co/');
 $qascanner->addURL('http://localhost');
 $qascanner->scan();
